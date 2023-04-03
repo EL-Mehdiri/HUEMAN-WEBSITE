@@ -572,7 +572,7 @@ footer>p {
     }
 }
 
-@media (max-width:1720px) {
+@media (max-width:1520px) {
     .text_bg {
         height: 62vh;
         width: 100vw;
@@ -599,7 +599,7 @@ footer>p {
     }
 }
 
-@media (max-width:1720px) {
+@media (max-width:1420px) {
     .text_bg {
         margin-top: 3rem;
         height: 62vh;
@@ -639,3 +639,9 @@ footer>p {
         font-size: 2rem;
     }
 }
+
+/* @media (min-width:1730px) {
+    .text-one {
+        margin-top: 13rem;
+    }
+} */
