@@ -5,7 +5,7 @@ $(".option").hover(function() {
 }); 
 
 var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 3,
+    slidesPerView: 6,
     centeredSlides: true,
     spaceBetween: 30,
     pagination: {
