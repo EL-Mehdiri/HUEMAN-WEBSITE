@@ -1,8 +1,8 @@
 
-$(".option").hover(function() {
+$(".option").hover(function () {
     $(".option").removeClass("active");
     $(this).addClass("active");
-}); 
+});
 
 var swiper = new Swiper(".mySwiper", {
     slidesPerView: 4,

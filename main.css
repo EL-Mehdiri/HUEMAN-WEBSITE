@@ -196,8 +196,8 @@ header .btn {
     padding: 1.5rem 0;
 }
 
-.section_three img {
-    width: 100rem;
+.section_three .magic {
+    width: 95vw;
     border-radius: 0.8rem;
 }
 
@@ -257,11 +257,8 @@ header .btn {
 }
 
 .section_four .img {
-    /* background-image: url(./img/Picture/Futuristic\ Human.jpg); */
-    /* background-size: 100vw;
-    background-repeat: no-repeat; */
-    height: 74vh;
-    width: 100vw;
+    height: 80vh;
+    /* width: 100vw; */
     margin: auto;
     overflow: hidden;
     margin-bottom: 3rem;
@@ -269,20 +266,17 @@ header .btn {
 
 .section_four .img p {
     position: relative;
-    top: -89%;
-    left: 32%;
-    transform: translate(-50%, -50%);
+    bottom: 60%;
+    left: 8%;
     color: #fff;
     font-size: 2.5rem;
-    background-color: #8dbee84b;
-    width: 42rem;
-    padding: 13rem 7rem;
+    width: 30rem;
     text-align: left;
 }
 
 
 .section_four .img img {
-    width: 80rem;
+    width: 94vw;
     border-radius: 0.8rem;
 
 }
@@ -304,37 +298,36 @@ header .btn {
     flex-direction: row;
     align-items: stretch;
     overflow: hidden;
-    min-width: 600px;
-    max-width: 1150px;
+    min-width: 800px;
+    max-width: 100vw;
     width: calc(100% - 100px);
-    height: 400px;
+    height: 600px;
 }
 
 .container_1 .options .option {
     position: relative;
     overflow: hidden;
-    min-width: 60px;
+    min-width: 430px;
     margin: 10px;
-    background: var(--optionBackground, var(--defaultBackground, #E6E9ED));
     background-size: auto 120%;
     background-position: center;
     cursor: pointer;
-    transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
+    transition: 1s cubic-bezier(0.05, 0.61, 0.41, 0.95);
 }
 
 .container_1 .options .option.active {
     flex-grow: 10000;
     transform: scale(1);
-    max-width: 600px;
+    max-width: 900px;
     margin: 0px;
-    border-radius: 40px;
+    border-radius: 20px;
     background-size: auto 100%;
     border: 5px solid #fff;
 }
 
 .container_1 .options .option:not(.active) {
-    flex-grow: 1;
-    border-radius: 30px;
+    flex-grow: 2;
+    border-radius: 20px;
 }
 
 .container_1 .options .option .label {
@@ -375,6 +368,8 @@ header .btn {
     margin-left: 10px;
     color: #fff;
     white-space: pre;
+    text-align: left;
+    line-height: 25px;
 }
 
 .container_1 .options .option .label .info>div {
