@@ -28,7 +28,7 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    background-color: #0000008a;
+    background-color: #0000003f;
     padding: 10px;
     color: #fff;
     border-radius: 30px;
@@ -703,7 +703,7 @@ p:hover~.cursor {
 /* scoll bar */
 
 html::-webkit-scrollbar {
-    width: .5vw;
+    width: .4vw;
     border-radius: 2rem;
 }
 
@@ -711,5 +711,5 @@ html::-webkit-scrollbar-track {}
 
 html::-webkit-scrollbar-thumb {
     background-color: #0081fa;
-    border-radius: 2rem;
+    border-radius: 4rem;
 }
