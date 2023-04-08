@@ -4,6 +4,15 @@ $(".option").hover(function () {
     $(this).addClass("active");
 });
 
+// corsur 
+var cursor = document.querySelector(".cursor");
+var cursor2 = document.querySelector(".cursor2");
+document.addEventListener("mousemove", function (e) {
+    cursor.style.cssText = cursor2.style.cssText = "left: " + e.clientX + "px; top: " + e.clientY + "px;";
+});
+
+// ///////
+
 var swiper = new Swiper(".mySwiper", {
     slidesPerView: 4,
     centeredSlides: true,
