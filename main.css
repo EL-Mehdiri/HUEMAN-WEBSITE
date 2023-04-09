@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     text-transform: capitalize;
+    transition: 0.5s;
 }
 
 html {
@@ -67,6 +68,11 @@ header .btn {
     color: #000;
 }
 
+header .btn:hover {
+    background-color: #099dff;
+    color: #EDF0F7;
+}
+
 /* ---------------------- */
 
 .main-text {
@@ -87,6 +93,14 @@ header .btn {
     border-radius: 2rem;
     color: #000;
     font-size: 1.3rem;
+}
+
+.main-text a:hover {
+    background-color: #0081fab4;
+    /* transform: scale(1.1); */
+    color: #EDF0F7;
+    font-size: 1.5rem;
+
 }
 
 .text_bg {
@@ -712,4 +726,18 @@ html::-webkit-scrollbar-track {}
 html::-webkit-scrollbar-thumb {
     background-color: #0081fa;
     border-radius: 4rem;
+}
+
+
+
+a:hover {
+    transform: scale(1.1);
+}
+
+li:hover {
+    transform: scale(1.1);
+}
+
+i:hover {
+    transform: scale(1.1);
 }
