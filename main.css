@@ -748,7 +748,7 @@ i:hover {
     color: #005baf;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 590px) {
 
     header ul,
     .cursor,
