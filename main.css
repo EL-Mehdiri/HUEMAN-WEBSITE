@@ -73,6 +73,7 @@ header .btn:hover {
     color: #EDF0F7;
 }
 
+
 /* ---------------------- */
 
 .main-text {
@@ -745,4 +746,41 @@ i:hover {
 .blue:active,
 .blue:hover {
     color: #005baf;
+}
+
+@media screen and (max-width: 390px) {
+
+    header ul,
+    .cursor,
+    .cursor2 {
+        display: none;
+    }
+
+    .main-text h1 {
+        font-size: 26px;
+        margin-bottom: 2rem;
+    }
+
+    .main-text {
+        padding-top: 4rem;
+        height: 48vh;
+    }
+
+    .main-text a {
+        padding: 0.4rem 1rem;
+        font-size: 1rem;
+    }
+
+    .text_bg {
+        display: none;
+    }
+
+    .text-one h1 {
+        font-size: 1rem;
+        top: 0;
+    }
+
+    .section_one {
+        bottom: 62%;
+    }
 }
